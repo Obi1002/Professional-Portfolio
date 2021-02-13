@@ -10,7 +10,7 @@ body, ul, li, h1 {
 
 nav {
     background-color: rgb(39, 28, 82);
-    width: 94.76%;
+    width: 100%;
     padding: 40px;
     position: relative;
     bottom: 30px;
@@ -23,7 +23,7 @@ nav h1 {
     align-content: center;
     margin: 0%;
     position: absolute;
-    top: 40%;
+    top: 45%;
 }
 
 nav li {
@@ -84,7 +84,7 @@ nav li {
     font-size: 70px;
     position: absolute;
     right: 30px;
-    top: 160px;
+    top: 240px;
 }
 
 .banner h2 span {
@@ -133,13 +133,11 @@ section p {
    text-decoration: none;
    line-height: 1.25;
    margin-left: 280px;
-   margin-bottom: 0px;
+   margin-top: 10px;
 }
 
 .Work {
     padding: 12px;
-    display: inline-flex;
-    float: left;
 }
 
 /* Aside for my Work */
@@ -149,7 +147,7 @@ section p {
     border-right: 5px solid navy;
     padding-right: 47px;
     display: inline-block;
-    width: 30%;
+    width: 13.6%;
     flex-wrap: wrap;
 }
 
@@ -158,24 +156,28 @@ body {
 }
 
 .Homework1 .heroimage {
-    width: 100%;
+    width: 85.8%;
     border: lightskyblue solid 5px;
-    margin-left: 20px;
-    height: 80%;
+    margin-left: 15%;
+    bottom: 65px;
+    height: 400px;
+    padding: 0;
     position: relative;
 }
 
 .Homework1 .MainHW {
     background-color: lightblue;
     color: darkgreen;
-    padding: 10px;
+    padding: 30px 90px;
     position: absolute;
-    margin-right: 70%;
-    margin-bottom: 90px;
-    bottom: 105px;
+    bottom: 55%;
     left: 250px;
+    font-size: 36px;
 }
-
+/* added small font to the span */
+.Homework1 .MainHW span {
+    font-size: 24px;
+}
 .images {
     width: 100%;    
     border: lightskyblue solid 5px;
