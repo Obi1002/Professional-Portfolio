@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Added external CSS file-->
-    <!-- <link rel="stylesheet" type="type/css" href="FONT LINK" -->
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
+    <!-- Added my page name -->
     <title>Obi's Porfolio Page</title>
 </head>
 <body>
      <nav class="main-nav">
         <!--nav bar-->
         <h1>Obi Ude</h1>
-        <!--links in the bar that float to the right-->
-        <!--Links that reference sections of the page-->
-            <!--link to sections -->
-            <ul>
+          <!--link to sections -->
+            <ul id="responsive">
                 <!--My Background-->
                 <li class="nav-link"><a href="#aboutme">About Me</a></li>
                 <!--link to work-->
@@ -23,7 +22,7 @@
                 <!--link to contact information-->
                 <li class="nav-link"><a href="#contactme">Contact Me</a></li>
                 <!--link to resume-->
-                <li class="nav-link"><a href="#resume">Resume</a></li>
+                <li class="nav-link"><a href="https://drive.google.com/file/d/1FxYzG8bGTkPWcepEgYA-KI4KWKXq04EX/view?usp=sharing">Resume</a></li>
             </ul>
     </nav>    
     <div class="banner">
@@ -34,7 +33,7 @@
     <main>   
     <div class="AllAboutMe">
         <aside class="AboutMe">About Me</aside>
-        <section class="info">
+        <section class="clearfix">
             <img src="./Assets/Images/Obi.jpg" alt="Obi's Picture">
             <p><em><b>Welcome to my page!</b></em> My name is Obi Ude, and I am a career changer. Through Columbia's Coding Bootcamp, I am learning the technical skills needed as a full-stack web developer. This Bootcamp is well-versed, challenging and allowed me to complete projects in different capacities. Look through some of my work below and let me know your thoughts; I welcome feedback and opportunities!
             </p>
@@ -51,22 +50,41 @@
     <div class="Work">
         <aside class="Assignments">Work</aside>
         <section class="Homework1">
-            <h2 class="MainHW">Project 1</h2>
-                <img class="heroimage" src="./Assets/Images/CoolCodeImage3.jpg" alt="Colorful Coding Image">
-        <section class="Homework2"> 
-            <img class="images" src="./Assets/Images/CoolCodeImage1.jpg" alt="P2">
-            <img class="images" src="./Assets/Images/CoolCodeImage2.jpg" alt="placeholder3">
+            <img class="heroimage" src="./Assets/Images/CoolCodeImage3.jpg" alt="Colorful Coding Image">
+            <div class="MainHW">
+                <h2>Project 1 <br><span>Coming Soon</span></h2>
+            </div>
         </section>
+        
+        <br>
+        
+        <section class="Homework2"> 
+            <img class="images" src="./Assets/Images/CoolCodeImage1.jpg" alt="Coding Image">
+            <div class="HW1">
+                <h3>Project 2 <br><span>Coming Soon</span></h3>
+            </div>
+            <img class="images" src="./Assets/Images/CoolCodeImage2.jpg" alt="Cool Image for Coding">
+            <div class="HW2">
+                <h3>Project 3 <br><span>Coming Soon</span></h3>
+            </div>
+        </section>
+        <!-- add the child property inside the parent -->
         <section class="Homework3">
         <img class="images" src="./Assets/Images/CoolCodeImage1.jpg" alt="placeholder4">
+        <div class="HW3">
+            <h3>Project 4 <br><span>Coming Soon</span></h3>
+        </div>
         <img class="images" src="./Assets/Images/ImageCoding2.jpg" alt="placeholder5"></section>
+        <div class="HW4">
+            <h3>Project 5 <br><span>Coming Soon</span></h3>
+        </div>
         </section>
     </div>
     <!--Contact Me section-->
     <br>
     <footer class="ContactMe">
         <aside class="MyContacts">Contact Me</aside>
-        <section class="Homework1">
+        <section class="contacts">
                       
     <!--List of contacts-->
         <ul>
