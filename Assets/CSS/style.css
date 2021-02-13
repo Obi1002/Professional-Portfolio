@@ -170,7 +170,7 @@ body {
     color: darkgreen;
     padding: 30px 90px;
     position: absolute;
-    bottom: 55%;
+    bottom: 62%;
     left: 250px;
     font-size: 36px;
 }
@@ -181,36 +181,18 @@ body {
 .images {
     width: 100%;    
     border: lightskyblue solid 5px;
-    
+    height: 200px;    
+    width: 45%;
+    margin-left: 15%;
 }
-
-.Homework2, .Homework3 {
-    margin-left: 20px;
-    height: 250px;
-    /* take these 2 lines out */
-    display: table; 
-    width: 100%;
-}
-
-.Homework2 .images {
-    width: 100%;
-    border: lightskyblue solid 5px;
-    height: 80%;
-    position: relative;
-    top: 100%;
-    right: 131%;
-}
-
-/* text */
-.Homework2 .HW1 .HW2 {
-    padding: 10px;
-    position: relative;
-    margin-right: 70%;
-    margin-bottom: 90px;
-    bottom: 105px;
-    left: 250px;
-    width: 100%;
-    display: table-cell;
+/* first row of images */
+.Homework2 .HW1 {
+    display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  justify-content: space-between;
+  padding: 60px;
+  bottom: 50%;
+  margin-top: -40px;
 }
 
 /* smaller box 1 - top left */
@@ -225,59 +207,29 @@ body {
     left: 250px;
 }
 
-.HW1 {
+.Homework2 .HW2 {
     display: flex;
   /* Defines how to distribute the empty space between child elements */
   justify-content: space-between;
   padding: 60px;
+  bottom: 50%;
+  margin-top: -40px;
 }
 
-.HW2 {
-    display: flex;
-  /* Defines how to distribute the empty space between child elements */
-  justify-content: space-between;
-  padding: 60px;
-
-}
-
-.Homework2 {
-    float: left;
-    /* take the next line out */
-    display: flex;
-    margin-top: 2%;
-}
-
-.Homework3 {
-    float: right;
-    /* take the next line out */
-    display: flex;
-    margin-top: 2%;
-    margin-left: 20px;
-    margin-right: 90px;
-}
-
-.Homework3 .images {
-    width: 100%;
-    border: lightskyblue solid 5px;
-    margin-left: 20px;
-    height: 80%;
-    position: relative;
-    top: 100%;
-    right: 50%;
-}
-
-.Homework3 .HW3 .HW4 {
+/* smaller box 1 - top right */
+.Homework2 .HW2 {
     background-color: lightblue;
     color: darkgreen;
     padding: 10px;
     position: absolute;
     margin-right: 70%;
-    margin-bottom: 90px;
-    bottom: 105px;
+    margin-bottom: 40px;
+    bottom: -120px;
     left: 250px;
-    width: 100%;
-    display: table-cell;
 }
+
+
+
 
 /* Aside for my contacts */
 .MyContacts {
