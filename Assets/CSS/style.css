@@ -11,6 +11,7 @@ body, ul, li, h1 {
 nav {
     background-color: rgb(39, 28, 82);
     width: 100%;
+    overflow: auto;
     padding: 40px;
     position: relative;
     bottom: 30px;
@@ -53,6 +54,7 @@ nav li {
     margin: 0;
 }
 
+/* Navbar links on mouse-over */
 .nav-link a:hover {
     text-decoration: none;
 }
@@ -60,6 +62,14 @@ nav li {
 .nav-link a.active {
     text-decoration: none;
 }
+
+/* will display navbar vertically on screens less than 500px */
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
 
 .banner {
     position: relative;
@@ -178,23 +188,31 @@ body {
 .Homework1 .MainHW span {
     font-size: 24px;
 }
+
 .images {
     width: 100%;    
     border: lightskyblue solid 5px;
     height: 200px;    
-    width: 45%;
+    width: 35%;
     margin-left: 15%;
 }
-/* first row of images */
-.Homework2 .HW1 {
-    display: flex;
-  /* Defines how to distribute the empty space between child elements */
-  justify-content: space-between;
-  padding: 60px;
-  bottom: 50%;
-  margin-top: -40px;
+
+.Homework2 .Homework3 {
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: row; 
 }
 
+/* first row of images */
+.Homework2 .HW1 {
+    /* Defines how to distribute the empty space between child elements */
+    justify-content: space-between;
+    padding: 60px;
+    bottom: 50%;
+    margin-top: -40px;
+}
+
+/* take out */
 /* smaller box 1 - top left */
 .Homework2 .HW1 {
     background-color: lightblue;
@@ -207,28 +225,61 @@ body {
     left: 250px;
 }
 
-.Homework2 .HW2 {
-    display: flex;
-  /* Defines how to distribute the empty space between child elements */
-  justify-content: space-between;
-  padding: 60px;
-  bottom: 50%;
-  margin-top: -40px;
+.Homework2 .HW1 {
+    background-color: lightblue;
+    color: darkgreen;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 43%;
+    left: 250px;
+    font-size: 24px;
+}
+/* added small font to the span */
+.Homework2 .HW1 span {
+    font-size: 18px;
 }
 
-/* smaller box 1 - top right */
 .Homework2 .HW2 {
     background-color: lightblue;
     color: darkgreen;
-    padding: 10px;
+    padding: 10px 0px;
     position: absolute;
-    margin-right: 70%;
-    margin-bottom: 40px;
-    bottom: -120px;
+    bottom: 34%;
     left: 250px;
+    font-size: 24px;
+}
+/* added small font to the span */
+.Homework2 .HW2 span {
+    font-size: 18px;
 }
 
+.Homework3 .HW3 {
+    background-color: lightblue;
+    color: darkgreen;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 22%;
+    left: 250px;
+    font-size: 24px;
+}
+/* added small font to the span */
+.Homework3 .HW3 span {
+    font-size: 18px;
+}
 
+.Homework3 .HW4 {
+    background-color: lightblue;
+    color: darkgreen;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 18%;
+    left: 250px;
+    font-size: 24px;
+}
+/* added small font to the span */
+.Homework3 .HW4 span {
+    font-size: 18px;
+}
 
 
 /* Aside for my contacts */
