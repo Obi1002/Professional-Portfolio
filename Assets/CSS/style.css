@@ -1,6 +1,6 @@
-@media all and (max-width: 1024px);
-@media all and (min-width: 800px) and (max-width: 1024px);
-@media all and (min-width: 320px) and (max-width: 780px)
+/* @media all and (max-width: 1024px)
+@media all and (min-width: 800px) and (max-width: 1024px)
+@media all and (min-width: 320px) and (max-width: 780px) */
 
 body, ul, li, h1 {
     margin: 0%;
@@ -163,6 +163,10 @@ section p {
 
 body {
     width: 100%;
+}
+
+.card {
+    margin: 10px;
 }
 
 .Homework1 .heroimage {
