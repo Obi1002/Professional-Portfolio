@@ -1,100 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Added external CSS file-->
-    <link rel="stylesheet" type="text/css" href="./Assets/CSS/reset.css">
-    <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
-    <!-- Added my page name -->
-    <title>Obi's Porfolio Page</title>
+    <meta charset="UTF-8"/>
+    <title>Obi Ude - Product Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-float.min.css" integrity="sha256-4ldVyEvC86/kae2IBWw+eJrTiwNEbUUTmN0zkP4luL4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css"/>
 </head>
 <body>
-     <nav class="main-nav">
-        <!--nav bar-->
-        <h1>Obi Ude</h1>
-          <!--link to sections -->
-            <ul>
-                <!--My Background-->
-                <li class="nav-link"><a href="#aboutme">About Me</a></li>
-                <!--link to work-->
-                <li class="nav-link"><a href="#work">Work</a></li>
-                <!--link to contact information-->
-                <li class="nav-link"><a href="#contactme">Contact Me</a></li>
-                <!--link to resume-->
-                <li class="nav-link"><a href="https://drive.google.com/file/d/1FxYzG8bGTkPWcepEgYA-KI4KWKXq04EX/view?usp=sharing">Resume</a></li>
-            </ul>
-    </nav>    
-    <div class="banner">
-        <img src="Assets/Images/Banner-tech-2.png" alt="Coding Image" img-align="left">
-        <div class="Welcome"></div>
-            <h2>You <span>Came to the Right Place!</span></h2>
+    <!----header + navbar---->
+    <nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link active" href="#about-me">About Me</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-me">Contact Me</a></li>
+        </ul>    
+    </nav>
+    <div class="card text-center">
+       <div class="card-header">Obi Ude, Ed.D</div>
+            <div class="card-body">
+                <img src="./Assets/Images/Obi02.jpg" alt="Obi Ude profile picture">
+            </div>
+        <div class="card-footer text-muted">Program/Project/Product Manager</div>
     </div>
-    <main>   
-    <div class="AllAboutMe">
-        <aside class="AboutMe">About Me</aside>
-        <section class="clearfix">
-            <img src="./Assets/Images/Obi.jpg" alt="Obi's Picture">
-            <p><em><b>Welcome to my page!</b></em> My name is Obi Ude, and I am a career changer. Through Columbia's Coding Bootcamp, I am learning the technical skills needed as a full-stack web developer. This Bootcamp is well-versed, challenging and allowed me to complete projects in different capacities. Look through some of my work below and let me know your thoughts; I welcome feedback and opportunities!
-            </p>
-            <br>
-            <p><strong>Strengths:</strong> BBA in Management, EdD in Organizational, Change and Leadership; KMO Gap Analysis, Leadership, CRM, Flexible and adaptable - able to work in ambiguous situations, Ability to establish and maintain strong relationships, Ability to adjust to shifting priorities, Training; Foster Teamwork, Self-Motivated, Organizational Astuteness, Informing Others, Listening, Verbal/Written Communication, Motivating Others, Tracking Budget Expenses. Fluent in English and Igbo.
-            </p>
-            <br>
-            <p><strong>Technical Skills:</strong> Microsoft Excel, Word, PowerPoint, Outlook, Kronos, Slate, SalesForce, Hobsons, SIS, PeopleSoft, Banner, Apply Yourself, ImageNow, HTML, CSS, and JavaScript.
-            </p>
-        </section>
-    </div>  
-    <!--Section with image banner and subtitle-->
-    <br>
-    <div class="Work">
-        <aside class="Assignments">Work</aside>
-        <section class="Homework1">
-            <img class="heroimage" src="./Assets/Images/CoolCodeImage3.jpg" alt="Colorful Coding Image">
-            <div class="MainHW">
-                <h2>Project 1 <br><span>Coming Soon</span></h2>
+            
+    </header>
+    <!------------background-header image------->
+     <main>
+        <section id="about-me" class="section">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="section-content">
+                <p><em><b>Welcome!</b></em> As a career changer, I am looking for exciting opportunities to enter into a Program Manager, Project Manager or Product Manager role. Through Columbia's Coding Bootcamp, I am learning the technical skills needed to succeed as a PM and seeking an environment that fosters growth.  Although I have been in education, I often find myself utilizing the same tools to develop new programs or curriculum for my departments:  I handle the planning and marketing of a program that usually stems from carefully analyzing the department's needs. This includes managing the program/product throughout the lifecycle, gathering and prioritizing the program/product and target audience requirements, defining the vision, and working closely with multiple departments to deliver a successful program/product. This Bootcamp is well-versed, challenging and is allowing me to complete projects in different capacities. I look forward to opportunities that will enable this visionary to translate her skills from Higher Ed to a new industry. I welcome feedback and opportunities!</p>
+                <p><strong>Education:</strong> EdD in Organizational, Change and Leadership; BBA in Management</p>
+                <p><strong>Strengths:</strong> KMO Gap Analysis, Leadership, CRM, Flexible and adaptable - able to work in ambiguous situations, Ability to establish and maintain strong relationships, Ability to adjust to shifting priorities, Training; Foster Teamwork, Self-Motivated, Organizational Astuteness, Informing Others, Listening, Verbal/Written Communication, Motivating Others, Tracking Budget Expenses.</p> 
+                <p><strong>Technical Skills:</strong> Google, Microsoft 365, Adobe Creative Cloud, Canva, HTML, CSS, JavaScript, APIs, Node.js, Slate, SalesForce, SIS, PeopleSoft, Banner, Apply Yourself, and ImageNow.</p>            
             </div>
         </section>
-        
-        <br>
-        
-        <section class="Homework2"> 
-            <img class="images" src="./Assets/Images/CoolCodeImage1.jpg" alt="Coding Image">
-            <div class="HW1">
-                <h3>Project 2 <br><span>Coming Soon</span></h3>
+        <section id="portfolio" class="section">
+            <div class="section-title">
+                <h2>Portfolio</h2>
             </div>
-            <img class="images" src="./Assets/Images/CoolCodeImage2.jpg" alt="Cool Image for Coding">
-            <div class="HW2">
-                <h3>Project 3 <br><span>Coming Soon</span></h3>
+            <div class="section-portfolio">
+                <a href="https://smart2barter.herokuapp.com/" target="_blank">
+                    <div class="section-mainTop portfolio-container" style="cursor: pointer;" target="_blank" alt="Smart to Barter">
+                        <div class="portfolio-title ">
+                            <h2>Smart to Barter</h2>
+                            <p>Trade your knowledge</p>
+                        </div>
+                    </div>
+                </a>
+                <br>
+                <div class="section-grid-layout">
+                    <a href="https://obi1002.github.io/recipe-for-disaster/" target="_blank" alt="Recipe for Disaster">
+                        <div class="section-box-1 portfolio-container">
+                            <div class="portfolio-title ">
+                                <h2>Recipe for Disaster</h2>
+                                <p>Find a Recipe</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://obi1002.github.io/Quiz_Game/" target="_blank" alt="Quiz Game">
+                        <div class="section-box-2 portfolio-container">
+                            <div class="portfolio-title ">
+                                <h2>Quiz Game</h2>
+                                <p>Test your knowledge</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <a href="https://obi1002.github.io/Workday-Planner/" target="_blank" alt="Workday Planner">
+                        <div class="section-box-2 portfolio-container">
+                            <div class="portfolio-title ">
+                                <h2>Workday Planner</h2>
+                                <p>Track your Day</p>
+                            </div>
+                        </div>
+                    </a> -->
+                    <!-- <a href="https://obi1002.github.io/Password-Generator/" target="_blank" alt="Password Generator">
+                        <div class="section-box-3 portfolio-container">
+                            <div class="portfolio-title portfolio-container">
+                                <h2>Password Generator</h2>
+                                <p>Create a strong password</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://obi1002.github.io/WeatherApp/" target="_blank" alt="Weather App">
+                        <div class="section-box-4 portfolio-container">
+                            <div class="portfolio-title portfolio-container">
+                                <h2>Weather App</h2>
+                                <p>Check your local weather</p>
+                            </div>
+                        </div>
+                    </a> -->
+                </div>
             </div>
         </section>
-        <!-- add the child property inside the parent -->
-        <section class="Homework3">
-        <img class="images" src="./Assets/Images/CoolCodeImage1.jpg" alt="placeholder4">
-        <div class="HW3">
-            <h3>Project 4 <br><span>Coming Soon</span></h3>
-        </div>
-        <img class="images" src="./Assets/Images/ImageCoding2.jpg" alt="placeholder5"></section>
-        <div class="HW4">
-            <h3>Project 5 <br><span>Coming Soon</span></h3>
-        </div>
+        <section id="contact-me" class="section">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="text-center" style="width:100%">
+                <ul>
+                    <li><a href="mailto:obiude1002@gmail.com?subject=I will update"><i class="fas fa-envelope fa-5x"></i></a></li>
+                    <!-- create html for form to contact me -->
+                    <li><a href="https://github.com/Obi1002?tab=repositories"><i class="fab fa-github-square fa-5x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/obiude/"><i class="fab fa-linkedin fa-5x"></i></a></li>
+                </ul>
+            </div>
         </section>
-    </div>
-    <!--Contact Me section-->
-    <br>
-    <footer class="ContactMe">
-        <aside class="MyContacts">Contact Me</aside>
-        <section class="contacts">
-                      
-    <!--List of contacts-->
-        <ul>
-            <li><a href="tel:6468422823">646-842-2823</a></li>
-            <li><a href="mailto:obiude1002@gmail.com">obiude1002@gmail.com</a></li>
-            <li><a href="https://github.com/Obi1002?tab=repositories">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/obiude/">LinkedIn</a></li>
-        </ul>  
-    </footer>     
-    </section>
-    </main> 
+    </main>
+    <footer>
+        <p>© 2021 Obi Ude</p>
+    </footer>
 </body>
 </html>
